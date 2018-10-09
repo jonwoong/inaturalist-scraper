@@ -1,0 +1,70 @@
+========== INSTALLING DEPENDENCIES (WINDOWS) ==========
+
+0. Place the "inaturalist-scraper" project folder in/on your Desktop
+
+1. Download Python 2.7 from the following link: 
+	https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi
+
+2. Install Python by double clicking the file "python-2.7.15.msi"
+
+3. In the Windows Start Menu, right click "Computer", click "Properties", click "Advanced system settings", click "Environment Variables"
+
+4. In the System variables table, scroll down to and click the variable "Path", then click "Edit"
+
+5. Add the text ";C:\Python27" (without quotes) to the end of the text in the "Variable value" box
+
+6. In the Windows Start Menu, search for and run Command Prompt (as administrator)
+
+7. Type or copy+paste "cd" (without quotes) and press enter
+
+8. Type or copy+paste "cd inaturalist-scraper" (without quotes) and press enter
+
+9. Type or copy+paste "python get-pip.py" (without quotes) and press enter
+	Wait for completion
+
+10. In the "inaturalist-scraper" folder, double click the file "install-dependencies-pc.bat" and wait for completion 
+	(if your PC does not show file extensions, the file type is BATCH)
+
+========== RUNNING THE SCRIPT (WINDOWS) ==========
+
+0. Open the file "inputs.py" in any text editor 
+	(I recommend Notepad++ to avoid missing linebreaks)
+
+1. Enter your csv filename and set the toggles
+
+2. Double click the file "scrape-pc.bat"
+	(if your PC does not show file extensions, the file type is BATCH)
+	Wait for completion
+
+========== INSTALLING DEPENDENCIES (MACOS) ==========
+
+0. Place the "inaturalist-scraper" project folder in/on your Desktop
+
+1. Open Terminal.app
+
+2. Type or copy+paste "cd" (without quotes) and press enter
+
+3. Type or copy+paste "cd inaturalist-scraper" (without quotes) and press enter
+
+4. Type or copy+paste "sudo chmod +x install-dependencies.sh" (without quotes)
+	(will require you to enter your password)
+
+5. Type "./install-dependencies.sh" (without quotes) and wait for completion
+	(will require you to enter your password)
+
+6. Type or copy+paste "sudo chmod +x scrape.sh" (without quotes)
+	(will require you to enter your password)
+
+========== RUNNING THE SCRIPT (MACOS) ==========
+
+0. Place the "inaturalist-scraper" project folder in/on your Desktop
+
+1. Open Terminal.app
+
+2. Type or copy+paste "cd" (without quotes) and press enter
+
+3. Type or copy+paste "cd inaturalist-scraper" (without quotes) and press enter
+
+4. Type or copy+paste "./scrape.sh" (without quotes) and wait for completion
+
+
